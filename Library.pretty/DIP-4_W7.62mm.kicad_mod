@@ -1,0 +1,212 @@
+(footprint "DIP-4_W7.62mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
+	(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
+	(property "Reference" "SW1"
+		(at 2.825 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "48a1da13-52df-493f-99be-42f6f05d3873")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_DIP_x01"
+		(at 2.825 1.81 0)
+		(layer "F.Fab")
+		(uuid "3f3e1e7e-53de-42a3-8d1c-a33a6a7ad129")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.985 -3.06 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9b575ac-7516-46e9-8ebc-46ba9842fdd7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "120cda5e-7c04-4881-a1cf-08214727964b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -5.25)
+		(end 0 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6eeed380-9c9d-43da-be4a-2bffae162642")
+	)
+	(fp_line
+		(start 0 -5.25)
+		(end 6 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a339551-8365-46d1-bf0f-56f0648ebf3d")
+	)
+	(fp_line
+		(start 0 0.75)
+		(end 6 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5165c112-9cbf-4d67-9126-0346ec88c6e0")
+	)
+	(fp_line
+		(start 6 -5.25)
+		(end 6 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94554b7f-56dc-4125-af37-68c310274dd9")
+	)
+	(fp_rect
+		(start -2.045 -5.58)
+		(end 7.685 1.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d758add5-9afd-4154-86b2-afe2f4b57262")
+	)
+	(fp_line
+		(start -0.35 0.75)
+		(end -0.35 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a55f2fe-01b9-42a3-8d19-26c44383e342")
+	)
+	(fp_line
+		(start -0.25 -3.75)
+		(end 0.75 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79a80528-c204-4052-b2df-24bf7777b11c")
+	)
+	(fp_line
+		(start 0.575 -4.75)
+		(end 5.925 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "62f52a78-d1aa-459e-9700-d3f85d07e598")
+	)
+	(fp_line
+		(start 6 -4.33)
+		(end 6 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91f41fa4-b0bb-4ce5-a99b-e43661454361")
+	)
+	(fp_line
+		(start 6 0.75)
+		(end -0.35 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03ebaebe-bae4-4e5e-93c1-e80188712294")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.825 -1.79 0)
+		(layer "F.Fab")
+		(uuid "dbd4d0ab-77f0-4bda-8099-fdf0df6263fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -4.5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "10889dbd-360f-4e9a-9e7e-8b3a5eda41f9")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "02d08366-0ba1-4540-82a3-3bc4cae94f25")
+	)
+	(pad "3" thru_hole circle
+		(at 6 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "227ca0d6-a331-4eec-a0ba-7bf3fe0eaa3a")
+	)
+	(pad "4" thru_hole circle
+		(at 6 -4.5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c831cd26-dfd4-45d3-af99-2b9a8d9944c9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-4_W7.62mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

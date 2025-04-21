@@ -1,0 +1,214 @@
+(footprint "Heatsink_45x15mm_2xFixation3mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Heatsink, 62 x 40mm, 2x 3mm Drills,")
+	(tags "heatsink")
+	(property "Reference" "HS1"
+		(at 23.25 -14 0)
+		(layer "F.SilkS")
+		(uuid "3dcee599-89a3-4c47-b63f-037baceeb3ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Heatsink_Pad"
+		(at 23.75 -3 0)
+		(layer "F.Fab")
+		(uuid "f9ffce77-cc56-4fba-aa31-97a2e85e7259")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.25 -0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "750071c3-fe86-44e2-bf8e-9a042019e1a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Heatsink with electrical connection, 1 pin"
+		(at 0.25 -0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2cb59ed-3bb1-4f8d-a020-d3097b36c04a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -13)
+		(end 45 -13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14575894-6c22-453e-b9f7-7e4e44928114")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -13)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84f27ded-2323-4fd8-bfb5-16433885d9bf")
+	)
+	(fp_line
+		(start 0 0)
+		(end 45 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "397adaa7-7b05-4c44-aa6a-753bb8b36f22")
+	)
+	(fp_line
+		(start 45 0)
+		(end 45 -13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc3a2c85-c552-4e14-bac1-2ce425840744")
+	)
+	(fp_line
+		(start -0.25 -13.25)
+		(end -0.25 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fce500cf-43c6-4b35-9523-3169a066c98a")
+	)
+	(fp_line
+		(start -0.25 -13.25)
+		(end 45.25 -13.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1e916950-9172-48ca-b539-9920118df332")
+	)
+	(fp_line
+		(start 45.25 0.25)
+		(end -0.25 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "61e8c5e7-5566-45d0-96ea-98346d660466")
+	)
+	(fp_line
+		(start 45.25 0.25)
+		(end 45.25 -13.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6755577e-15fa-49dd-95fa-ec8f9ec3e1d1")
+	)
+	(fp_line
+		(start 0.25 -12.75)
+		(end 44.75 -12.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5e761bc-8e14-4aee-be95-adefc616054f")
+	)
+	(fp_line
+		(start 0.25 -0.25)
+		(end 0.25 -12.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da01d9ff-ea65-405a-a51e-d3317191a839")
+	)
+	(fp_line
+		(start 44.75 -12.625)
+		(end 44.75 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fdc60cb8-aba4-4c95-bd68-8dc9f79e36a5")
+	)
+	(fp_line
+		(start 44.75 -0.25)
+		(end 0.25 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9eb0cbe3-0dcc-481d-9220-5b5b281f3b64")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 23.75 -7 0)
+		(layer "F.Fab")
+		(uuid "92b540df-9461-4b38-9078-684b33fafa13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 5.5 -7)
+		(size 3 3)
+		(drill 3.0988)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "1f9f4011-ccc5-4db4-b2b2-e1f1475fc6e2")
+	)
+	(pad "" np_thru_hole circle
+		(at 39.5 -7)
+		(size 3 3)
+		(drill 3.0988)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ba624214-34a6-48ef-aa9d-98de003a89d5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_62x40mm_2xFixation3mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

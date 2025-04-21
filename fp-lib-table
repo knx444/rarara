@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "HC-49US_16.000MHZ")(type "KiCad")(uri "${KIPRJMOD}/HC-49US_16.000MHZ")(options "")(descr ""))
+  (lib (name "FSM8JH")(type "KiCad")(uri "${KIPRJMOD}/FSM8JH")(options "")(descr ""))
+  (lib (name "MUR860")(type "KiCad")(uri "${KIPRJMOD}/MUR860")(options "")(descr ""))
+)

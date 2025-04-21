@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MUR860")(type "KiCad")(uri "${KIPRJMOD}/MUR860/MUR860.kicad_sym")(options "")(descr ""))
+  (lib (name "FSM8JH")(type "KiCad")(uri "${KIPRJMOD}/FSM8JH/FSM8JH.kicad_sym")(options "")(descr ""))
+  (lib (name "HC-49US_16.000MHZ")(type "KiCad")(uri "${KIPRJMOD}/HC-49US_16.000MHZ/HC-49US_16.000MHZ.kicad_sym")(options "")(descr ""))
+)
